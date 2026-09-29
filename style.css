@@ -1,0 +1,17 @@
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,"Malgun Gothic",sans-serif;margin:0 auto;padding:0 1rem 2rem;max-width:880px;color:#222;background:#fff;line-height:1.6}
+header{position:sticky;top:0;background:#fff;padding:1rem 0;border-bottom:1px solid #ddd;z-index:1}
+h1{margin:0;font-size:1.5rem}
+.sub{margin:.25rem 0 .75rem;color:#666;font-size:.9rem}
+.search{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap}
+input{padding:.5rem .75rem;font-size:1rem;width:60%;min-width:220px;border:1px solid #ccc;border-radius:6px}
+input:focus{outline:2px solid #06f;border-color:#06f}
+#count{font-weight:600;color:#06f}
+.card{border:1px solid #e5e5e5;padding:1rem 1.25rem;margin:.75rem 0;border-radius:8px}
+.label{color:#06f;font-weight:600;font-size:.9rem}
+.title{font-weight:700;font-size:1.15rem;margin:.25rem 0 .5rem}
+.body{color:#444;font-size:.95rem}
+.body p{margin:.4rem 0}
+.body h3{font-size:1rem;margin:.9rem 0 .2rem;color:#333}
+mark{background:#ffe58a;padding:0 1px}
+.empty{color:#888;text-align:center;padding:2rem 0}

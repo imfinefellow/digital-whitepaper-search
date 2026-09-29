@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>디지털혁신 백서 검색</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>2026 디지털혁신 백서 검색</h1>
+    <p class="sub">행정안전부 디지털혁신과 · 장(章) 제목과 본문에서 키워드를 찾습니다.</p>
+    <div class="search">
+      <input id="q" type="search" placeholder="검색어 (예: 사업)" aria-label="검색어" autocomplete="off">
+      <span id="count" aria-live="polite"></span>
+    </div>
+  </header>
+  <main id="list"></main>
+  <script src="데이터.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
